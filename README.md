@@ -71,7 +71,20 @@ This platform is built to:
 
 ## 🖼️ Business Model Diagram (Text-Based)
 
-+------------------+ | Customer | | (Books a Boat) | +------------------+ | v +--------------------------+ | Booking System | | - Takes 10% Commission | | - Adds VAT & Processing | +--------------------------+ | v +------------------+ +------------------+ | Platform Earnings|<------| Boat Owner | | (Commission & VAT)| | Receives Net Pay| +------------------+ +------------------+
+### 📊 Business Model Diagram (Text-Based)
+
+```text
++-------------+          +------------------+          +-----------------------+
+|  Customer   | -------> |  Booking System  | -------> | Platform Commission   |
+| (Books Boat)|          | (Takes 10%)      |          | & VAT Deduction       |
++-------------+          +------------------+          +-----------+-----------+
+                                                              |
+                                                              v
+                                                    +------------------+
+                                                    |   Boat Owner     |
+                                                    | (Receives Net Pay)|
+                                                    +------------------+
+
 
 
 ---
